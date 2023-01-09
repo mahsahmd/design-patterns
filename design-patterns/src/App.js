@@ -2,7 +2,6 @@ import Provider from "./provider/Provider";
 import Form from "./proxy/Form";
 import Singleton from "./Singletons/Singleton";
 import styled from 'styled-components'
-
 function App() {
   return (
     <div className="App">
