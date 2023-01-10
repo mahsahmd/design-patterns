@@ -2,6 +2,7 @@ import Provider from "./provider/Provider";
 import Form from "./proxy/Form";
 import Singleton from "./Singletons/Singleton";
 import styled from 'styled-components'
+import Test from "./observer/Test";
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ function App() {
         <Singleton />
         <Form />
         <Provider />
+        <Test />
       </Wrapper >
 
     </div>
