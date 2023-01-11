@@ -3,6 +3,7 @@ import Form from "./proxy/Form";
 import Singleton from "./Singletons/Singleton";
 import styled from 'styled-components'
 import Test from "./observer/Test";
+import RenderProps from "./renderProps/RenderProps";
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
         <Form />
         <Provider />
         <Test />
+        <RenderProps/>
       </Wrapper >
 
     </div>
