@@ -4,6 +4,8 @@ import Singleton from "./Singletons/Singleton";
 import styled from 'styled-components'
 import Test from "./observer/Test";
 import RenderProps from "./renderProps/RenderProps";
+import { addBook } from "./flyWeight/flyWeight";
+
 function App() {
   return (
     <div className="App">
